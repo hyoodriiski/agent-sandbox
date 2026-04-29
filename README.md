@@ -16,7 +16,7 @@ A sandboxed environment for developing, testing, and running AI agents with Kube
 ## Prerequisites
 
 - Go 1.22+
-- Python 3.10+ (for Python SDK)
+- Python 3.11+ (for Python SDK)
 - Kubernetes 1.28+ cluster (or [kind](https://kind.sigs.k8s.io/) for local development)
 - `kubectl` configured with cluster access
 

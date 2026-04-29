@@ -69,6 +69,8 @@ make test-unit
 make test-integration
 ```
 
+> **Personal note:** I've been running integration tests against a local kind cluster using `kind create cluster --name agent-sandbox-dev` before running `make test-integration`. Works well for iterating without needing a remote cluster.
+
 ## CI/CD
 
 This project uses GitHub Actions for continuous integration. See `.github/workflows/` for pipeline definitions.
